@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Ram Stores POS",
+    "slug": "ram-stores-pos",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F172A"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundColor": "#0F172A"
+      },
+      "package": "com.ramstores.pos"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
