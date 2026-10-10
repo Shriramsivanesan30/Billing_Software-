@@ -7,11 +7,6 @@ import { Platform } from 'react-native';
 import * as FileSystem from 'expo-file-system/legacy';
 import * as Sharing from 'expo-sharing';
 import { Invoice, ExcelExportReport } from '../types';
-
-/**
- * Pure JS Uint8Array to Base64 String converter
- * Works reliably on all Hermes, React Native, iOS & Android runtimes
- */
 const uint8ArrayToBase64 = (bytes: Uint8Array): string => {
   const base64Chars =
     'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
